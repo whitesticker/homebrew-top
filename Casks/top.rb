@@ -7,7 +7,7 @@ cask "top" do
   desc "Lightweight native macOS menu bar system monitor"
   homepage "https://github.com/whitesticker/top"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "top.app"
 
