@@ -1,6 +1,6 @@
 cask "top" do
-  version "0.1.0"
-  sha256 "46370fc1ac938309d3724e52cbaa236e77d5fd46dbd43b08b9f6265a60d80b19"
+  version "0.2.0"
+  sha256 "8b33c728583072b4fa7d6295eca81f87cff754614d7d3e84e577eb8cda4ce1ad"
 
   url "https://github.com/whitesticker/top/releases/download/v#{version}/top-#{version}.zip"
   name "top"
