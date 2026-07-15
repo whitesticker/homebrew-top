@@ -1,6 +1,6 @@
 cask "top" do
-  version "0.2.0"
-  sha256 "8b33c728583072b4fa7d6295eca81f87cff754614d7d3e84e577eb8cda4ce1ad"
+  version "0.3.0"
+  sha256 "6032d571ceb539ea4970572eb9811f9620d2ceb4b471af626ce656756f0a90d3"
 
   url "https://github.com/whitesticker/top/releases/download/v#{version}/top-#{version}.zip"
   name "top"
@@ -21,5 +21,8 @@ cask "top" do
 
   zap trash: [
     "~/Library/Preferences/com.local.top.plist",
+    "~/Library/Preferences/com.local.top.widgets.plist",
+    "~/Library/Group Containers/XXA24FWXDW.com.local.top.widgets",
+    "~/Library/Containers/com.local.top.TopWidgetExtension",
   ]
 end
